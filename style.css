@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+body{
+    padding: 24px;
+    background-image: url(./img/clapperboard-red-tickets\ 2.png) ;
+    background-size: cover;       /* A imagem cobre toda a tela */
+    background-position: center;  /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-attachment: fixed; /* Fixa a imagem ao fundo */
+    min-height: 100vh;
+    
+}
+
+
+/* header */
+header{
+    display: flex;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    /* padding-bottom: 12px; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.perfil{
+    height: 4%;
+    width: 4%;
+}
+
+
+/*Container*/
+.container{
+    padding-top: 2%;
+    min-height: 100vh;
+    
+}
+
+/************************************/
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleFilmes{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 30%;
+}
+.adicionarfilme{
+    height: 40px;
+    width: 130px;
+    padding: 0 8px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px
+}
+/************************************/
+.meiDaTela{
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.meiDaTela input{
+    width: 30%;
+    height: 35px;
+    padding-left: 10px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px
+}
+.meiDaTela p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 8px;
+    width: 30%;
+}
